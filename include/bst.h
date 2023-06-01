@@ -67,6 +67,7 @@ class BST {
                node->right = addNode(node->right, word);
             }
         }
+        return node;
     }
     int depppth(Node* root) {
         if (root == nullptr) {
